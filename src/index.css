@@ -38,17 +38,20 @@
 
   /* ✨ Tambahkan variabel custom lo di sini */
    /* === ✨ Variabel custom tambahan lo === */
-  --btn-shadow-color: var(--color-primary);
-  --btn-shadow-solid: 6px 6px 0px var(--btn-shadow-color);
+  --shadow-color: var(--color-primary);
+  --shadow-solid: 6px 6px 0px var(--shadow-color);
 
-  --btn-shadow-color-secondary: var(--color-secondary);
-  --btn-shadow-solid-secondary: 6px 6px 0px var(--btn-shadow-color-secondary);
+  --shadow-color-secondary: var(--color-secondary);
+  --shadow-solid-secondary: 6px 6px 0px var(--shadow-color-secondary);
 
-  --btn-shadow-color-accent: var(--color-accent);
-  --btn-shadow-solid-accent: 6px 6px 0px var(--btn-shadow-color-accent);
+  --shadow-color-accent: var(--color-accent);
+  --shadow-solid-accent: 6px 6px 0px var(--shadow-color-accent);
 
-  --btn-shadow-color-base: var(--color-base-content);
-  --btn-shadow-solid-base: 4px 4px 0px var(--btn-shadow-color-base);
+  --shadow-color-error: var(--color-error);
+  --shadow-solid-error: 6px 6px 0px var(--shadow-color-error);
+
+  --shadow-color-base: var(--color-base-content);
+  --shadow-solid-base: 4px 4px 0px var(--shadow-color-base);
 
 }
 *{
@@ -56,18 +59,67 @@
   font-family: monospace;
 }
 
-.btn-shadow-primary {
-  box-shadow: var(--btn-shadow-solid);
+.c-shadow-primary {
+  box-shadow: var(--shadow-solid);
 }
 
-.btn-shadow-secondary {
-  box-shadow: var(--btn-shadow-solid-secondary);
+.c-shadow-secondary {
+  box-shadow: var(--shadow-solid-secondary);
 }
 
-.btn-shadow-accent {
-  box-shadow: var(--btn-shadow-solid-accent);
+.c-shadow-accent {
+  box-shadow: var(--shadow-solid-accent);
 }
 
-.btn-shadow-base {
-  box-shadow: var(--btn-shadow-solid-base);
+.c-shadow-base {
+  box-shadow: var(--shadow-solid-base);
+}
+
+.c-shadow-error {
+  box-shadow: var(--shadow-solid-error);
+}
+ 
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin 10s linear infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 4s ease-in-out infinite;
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Project 1",
+    "projectType": "GITHUB",
+    "projectUrl": "https://github.com",
+    "projectRole": "Frontend"
+  },
+  {
+    "title": "Project 2",
+    "projectType": "NOTION",
+    "projectUrl": "https://notion.so",
+    "projectRole": "Devops"
+  },
+  {
+    "title": "Project 3",
+    "projectType": "GITHUB",
+    "projectUrl": "https://github.com",
+    "projectRole": "Backend"
+  },
+  {
+    "title": "Project 4",
+    "projectType": "GITHUB",
+    "projectUrl": "https://github.com",
+    "projectRole": "Fullstack"
+  }
+]
