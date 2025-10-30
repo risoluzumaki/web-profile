@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "night";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+
+  --color-base-100: oklch(12% 0.042 264.695);
+  --color-base-200: oklch(20% 0.042 265.755);
+  --color-base-300: oklch(27% 0.041 260.031);
+  --color-base-content: oklch(84.153% 0.007 265.754);
+  --color-primary: oklch(70% 0.213 47.604);
+  --color-primary-content: oklch(12% 0.042 264.695);
+  --color-secondary: oklch(84% 0.238 128.85);
+  --color-secondary-content: oklch(13.602% 0.031 276.934);
+  --color-accent: oklch(66% 0.295 322.15);
+  --color-accent-content: oklch(14.472% 0.035 350.048);
+  --color-neutral: oklch(27.949% 0.036 260.03);
+  --color-neutral-content: oklch(85.589% 0.007 260.03);
+  --color-info: oklch(68.455% 0.148 237.251);
+  --color-info-content: oklch(0% 0 0);
+  --color-success: oklch(78.452% 0.132 181.911);
+  --color-success-content: oklch(15.69% 0.026 181.911);
+  --color-warning: oklch(83.242% 0.139 82.95);
+  --color-warning-content: oklch(16.648% 0.027 82.95);
+  --color-error: oklch(63% 0.237 25.331);
+  --color-error-content: oklch(14.357% 0.034 13.118);
+  --radius-selector: 0rem;
+  --radius-field: 0rem;
+  --radius-box: 0rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+
+  /* ✨ Tambahkan variabel custom lo di sini */
+   /* === ✨ Variabel custom tambahan lo === */
+  --btn-shadow-color: var(--color-primary);
+  --btn-shadow-solid: 6px 6px 0px var(--btn-shadow-color);
+
+  --btn-shadow-color-secondary: var(--color-secondary);
+  --btn-shadow-solid-secondary: 6px 6px 0px var(--btn-shadow-color-secondary);
+
+  --btn-shadow-color-accent: var(--color-accent);
+  --btn-shadow-solid-accent: 6px 6px 0px var(--btn-shadow-color-accent);
+
+  --btn-shadow-color-base: var(--color-base-content);
+  --btn-shadow-solid-base: 4px 4px 0px var(--btn-shadow-color-base);
+
+}
+*{
+  /* border: 2px solid white; */
+  font-family: monospace;
+}
+
+.btn-shadow-primary {
+  box-shadow: var(--btn-shadow-solid);
+}
+
+.btn-shadow-secondary {
+  box-shadow: var(--btn-shadow-solid-secondary);
+}
+
+.btn-shadow-accent {
+  box-shadow: var(--btn-shadow-solid-accent);
+}
+
+.btn-shadow-base {
+  box-shadow: var(--btn-shadow-solid-base);
+}
