@@ -16,7 +16,7 @@ export default function Navbar () {
             <li><Link to="/contact"className='text-lg'>Contact</Link></li>
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-2xl">RizkiDev.</Link>
+        <Link to="/" className="btn btn-ghost text-xl sm:text-2xl">RizkiDev.</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-lg font-bold">
