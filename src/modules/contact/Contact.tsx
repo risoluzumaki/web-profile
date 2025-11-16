@@ -46,7 +46,7 @@ function Contact(){
       <h2 className='text-2xl font-bold mb-8'>"Unreligious tech stack use"</h2>
       <div className="flex flex-col lg:flex-row gap-4 w-full max-w-6xl">
         {/* Left side: Tech stack icons */}
-        <div className="relative flex-1 min-h-[400px] lg:min-h-[auto]">
+        <div className="relative flex-1 min-h-[400px] lg:min-h-auto">
           {icons.map((item, index) => {
             const Icon = item.icon;
             return <Icon key={index} className={`absolute text-4xl md:text-5xl lg:text-6xl ${item.color} ${item.animation}`} style={{ top: item.top, left: item.left }} />
@@ -56,16 +56,16 @@ function Contact(){
         {/* Right side: Photo and social links */}
         <div className="flex flex-col items-center justify-center gap-8 flex-1">
           {/* Placeholder for photo */}
-          <div className="w-64 h-64 bg-base-300 rounded-full border-2 border-secondary flex items-center justify-center text-xl">
-            Your Photo Here
+          <div className="w-64 h-64 rounded-full border-2 border-secondary flex items-center justify-center text-xl overflow-hidden">
+            <img src="/pp.jpg" alt="" className=""/>
           </div>
           <div className="flex gap-8 text-4xl">
-            <a href="#" className="hover:text-info"><FaLinkedin /></a>
-            <a href="#" className="hover:text-blue-900"><BsTwitterX /></a>
-            <a href="#" className="hover:text-accent"><FaInstagram /></a>
+            <a href="https://www.linkedin.com/in/rizki-bayu-pasena/" target='_blank' className="hover:text-info"><FaLinkedin /></a>
+            <a href="https://x.com/BRizki72649" target='_blank' className="hover:text-blue-900"><BsTwitterX /></a>
+            <a href="https://instagram.com/rizkidesigncode " className="hover:text-accent" target='_blank'><FaInstagram /></a>
           </div>
           {/* Download CV Button */}
-          <a href="/cv.pdf" download className="btn font-bold text-lg c-shadow-secondary">Download CV</a>
+          <a href="/cv_eng.pdf" target='_blank' className="btn font-bold text-lg c-shadow-secondary">Download CV</a>
         </div>
       </div>
     </main>

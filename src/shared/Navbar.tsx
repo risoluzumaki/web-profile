@@ -4,7 +4,7 @@ import { SiNotion } from 'react-icons/si';
 
 export default function Navbar () {
   return (
-   <nav className="navbar bg-transparent fixed top-0 z-50">
+   <nav className="navbar bg-transparent backdrop-blur-2xl fixed top-0 z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

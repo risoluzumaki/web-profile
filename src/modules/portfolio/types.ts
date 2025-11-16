@@ -6,4 +6,5 @@ export interface Project {
   projectType: ProjectType;
   projectUrl: string;
   projectRole: ProjectRole;
+  technologies: string[];
 }

@@ -2,6 +2,20 @@
 
 This is a portfolio website built with React, TypeScript, and Tailwind CSS.
 
+## Demo
+
+<!-- [Watch the demo video here](./assets/record.mp4) -->
+
+## Screenshots
+
+| | |
+|:-------------------------:|:-------------------------:|
+| <img src="./assets/ss1.png" height="200">  | <img src="./assets/ss2.png" height="200">  |
+| <img src="./assets/ss3.png" height="200">  | <img src="./assets/ss4.png" height="200">  |
+| <img src="./assets/ss5.png" height="200">  | <img src="./assets/ss6.png" height="200">  |
+| <img src="./assets/ss7.png" height="200">  | <img src="./assets/ss8.png" height="200">  |
+
+
 ## Tech Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -9,43 +23,6 @@ This is a portfolio website built with React, TypeScript, and Tailwind CSS.
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
-
-## Getting Started
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/portfolio-project.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd portfolio-project
-   ```
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-
-### Development
-
-To start the development server, run the following command:
-
-```bash
-npm run dev
-```
-
-This will start the development server at `http://localhost:5173`.
-
-### Build
-
-To build the project for production, run the following command:
-
-```bash
-npm run build
-```
-
-This will create a `dist` directory with the production-ready files.
 
 ## Dependencies
 

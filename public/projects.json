@@ -1,26 +1,93 @@
 [
   {
-    "title": "Project 1",
+    "title": "RContacs Apps",
     "projectType": "GITHUB",
     "projectUrl": "https://github.com",
-    "projectRole": "Frontend"
+    "projectRole": "Fullstack",
+    "technologies": ["react", "vue", "go", "ts"]
   },
   {
-    "title": "Project 2",
+    "title": "Oauth",
+    "projectType": "Github",
+    "projectUrl": "https://github.com",
+    "projectRole": "Backend",
+    "technologies": ["Go", "typescript"]
+  },
+  {
+    "title": "Docker Containerization",
     "projectType": "NOTION",
-    "projectUrl": "https://notion.so",
-    "projectRole": "Devops"
+    "projectUrl": "https://github.com",
+    "projectRole": "Devops",
+    "technologies": ["docker"]
   },
   {
-    "title": "Project 3",
+    "title": "Auth Tech Lang",
     "projectType": "GITHUB",
     "projectUrl": "https://github.com",
-    "projectRole": "Backend"
+    "projectRole": "Fullstack",
+    "technologies": ["Go", "typescript"]
   },
   {
-    "title": "Project 4",
+    "title": "JWT",
     "projectType": "GITHUB",
     "projectUrl": "https://github.com",
-    "projectRole": "Fullstack"
+    "projectRole": "Backend",
+    "technologies": ["go", "typescript", "java"]
+  },
+  {
+    "title": "Frontend Exam",
+    "projectType": "GITHUB",
+    "projectUrl": "https://github.com/risoluzumaki/exam-frontend",
+    "projectRole": "Frontend",
+    "technologies": ["javascript", "typescript"]
+  },
+  {
+    "title": "CI/CD Jenkins",
+    "projectType": "NOTION",
+    "projectUrl": "https://notion.com",
+    "projectRole": "Devops",
+    "technologies": ["jenkins"]
+  },
+  {
+    "title": "CI/CD Github Action",
+    "projectType": "NOTION",
+    "projectUrl": "https://notion.com",
+    "projectRole": "Devops",
+    "technologies": ["github"]
+  },
+  {
+    "title": "CI/CD Gitlab",
+    "projectType": "NOTION",
+    "projectUrl": "https://notion.com",
+    "projectRole": "Devops",
+    "technologies": ["gitlab"]
+  },
+  {
+    "title": "AWS Cloud Computing",
+    "projectType": "NOTION",
+    "projectUrl": "https://www.notion.so/AWS-Amazon-Web-Services-246f56c5e71580ef8ac2deebe7a0102f?source=copy_link",
+    "projectRole": "Devops",
+    "technologies": ["aws"]
+  },
+  {
+    "title": "IAC Terraform",
+    "projectType": "NOTION",
+    "projectUrl": "https://notion.com",
+    "projectRole": "Devops",
+    "technologies": ["terraform"]
+  },
+  {
+    "title": "IAC Ansible",
+    "projectType": "NOTION",
+    "projectUrl": "https://notion.com",
+    "projectRole": "Devops",
+    "technologies": ["Ansible"]
+  },
+  {
+    "title": "Web Portfolio 1",
+    "projectType": "GITHUB",
+    "projectUrl": "https://notion.com",
+    "projectRole": "Frontend",
+    "technologies": ["react", "typescript"]
   }
 ]
